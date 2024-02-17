@@ -5,8 +5,8 @@ class A{
         Scanner sc = new Scanner(System.in);
         int counter = 0;
         boolean pin_code_coincided = false;
-        String correct = sc.nextLine();
         while (counter != 5){
+            String correct = sc.nextLine();
             String vasya = sc.nextLine();
             counter++;
             if(correct.equals(vasya)){
